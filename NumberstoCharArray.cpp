@@ -1,7 +1,7 @@
 #include "NumberToCharArray.h"
 
 
-char* Parseinteger(long long int Value) {
+char* Parseinteger(long long int Value) { // Call Delete on variable returned when done. 
 
 	std::stack<char> ParseInteger; // stack for pushing all parsed character onto.
 	ParseInteger.push('\0'); // Adding Null terminator
@@ -88,6 +88,7 @@ void SafeDelete(char* Pointer) {
 
 
 	}
+
 
 
 
